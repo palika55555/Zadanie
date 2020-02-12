@@ -1,0 +1,148 @@
+.header-image {
+    background-image: url("dom.jpeg");
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    bottom: -16px;
+    left: -16px;
+    background-position: center;
+    background-size: cover;
+    -webkit-filter: blur(6px);
+
+}
+.foto-galery{
+    position: relative;
+    font-size: 20px;
+    z-index: 2;
+    margin-left: 12%;
+    margin-top: 75px;
+    color: rgba(248, 248, 248, 0.856);
+}
+.category{
+    padding-top: 20px;
+    font-size: 15px;
+    margin-left: 12%;
+    position: relative;
+    z-index: 3;
+    color: rgba(248, 248, 248, 0.856);
+}
+#line{
+    z-index: 4;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.329) ;
+    width: 68%;
+    padding-bottom:15px;
+    margin-left: 12%;
+    overflow: hidden;
+}
+.archi-text{
+    margin-top: 3px;
+    padding-bottom: 20px;
+}
+.bla{
+    font-size: 12px;
+    margin-top:  -55px;
+  }
+p{
+
+    padding-top: 10px;
+    text-align: center;
+}
+.column{
+
+    overflow: hidden;
+    padding: 7px;
+}
+.card{
+    padding: 1px;
+}
+.luka-hover:hover{
+    margin-top: -10px;
+    transition: 1s;
+}
+.dom-hover:hover{
+    margin-top: -10px;
+    transition: 1s;
+}
+.ludia-hover:hover{
+    margin-top: -10px;
+    transition: 1s;
+}
+.jedla-hover:hover{
+
+    margin-top: -10px;
+    transition: 1s;
+}
+.jedla-hover{
+    padding-right: 45px;
+}
+.auta-hover:hover{
+    margin-top: -10px;
+    transition: 1s;
+}
+.row{
+    margin-left: 11.5%;
+    margin-top: 60px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.luka-hover1:hover{
+    margin-top: -10px;
+    transition: 1s;
+}
+.material-icons{
+    font-size: 55px;
+
+    margin-top: 72px;
+}
+.modal-head{
+    margin-top: 250px;
+}
+.pridat-kat{
+    margin-right: 80px;
+}
+
+.na{
+    height: 50px;
+}
+
+.small{
+    padding-right: 1px;
+    font-size: 20px;
+    margin-top: -100px;
+}
+.card1{
+    padding-top: -25px;
+    margin-top: -65px;
+}
+.btn{
+
+
+}
+.ikona{
+
+    margin-left: 46%;
+}
+
+.form{
+    margin-top: -65px;
+    margin-left: 320px;
+}
+.file{
+
+    margin-left: 8px;
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.alebo{
+    padding-bottom: 20px;
+}
